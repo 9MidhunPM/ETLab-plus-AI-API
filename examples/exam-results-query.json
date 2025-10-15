@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "subjectName": "OBJECT ORIENTED PROGRAMMING",
+      "subjectCode": "24CSR304",
+      "semester": "IIIrd Semester",
+      "marksObtained": "29",
+      "maximumMarks": "30",
+      "exam": "1"
+    },
+    {
+      "subjectName": "THEORY OF COMPUTATION",
+      "subjectCode": "24CST302",
+      "semester": "IIIrd Semester",
+      "marksObtained": "30",
+      "maximumMarks": "30",
+      "exam": "1"
+    },
+    {
+      "subjectName": "DATA STRUCTURES AND ALGORITHMS",
+      "subjectCode": "24CST303",
+      "semester": "IIIrd Semester",
+      "marksObtained": "29.5",
+      "maximumMarks": "30",
+      "exam": "1"
+    },
+    {
+      "subjectName": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+      "subjectCode": "24EST315",
+      "semester": "IIIrd Semester",
+      "marksObtained": "28",
+      "maximumMarks": "30",
+      "exam": "1"
+    },
+    {
+      "subjectName": "DISCRETE MATHEMATICS & STATISTICS",
+      "subjectCode": "24MAT311",
+      "semester": "IIIrd Semester",
+      "marksObtained": "30",
+      "maximumMarks": "30",
+      "exam": "1"
+    },
+    {
+      "subjectName": "UHV II Life Skill and Communitive Work",
+      "subjectCode": "24PWT208",
+      "semester": "IIIrd Semester",
+      "marksObtained": "24",
+      "maximumMarks": "30",
+      "exam": "1"
+    }
+  ],
+  "query": "Analyze my exam performance and suggest which subjects need more focus"
+}

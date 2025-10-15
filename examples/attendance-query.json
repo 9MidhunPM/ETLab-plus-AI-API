@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "subject_code": "SC3",
+      "attendance_percentage": "100%",
+      "present_hours": "7",
+      "total_hours": "7"
+    },
+    {
+      "subject_code": "24EST315",
+      "attendance_percentage": "95%",
+      "present_hours": "35",
+      "total_hours": "37"
+    },
+    {
+      "subject_code": "24CSL307",
+      "attendance_percentage": "100%",
+      "present_hours": "24",
+      "total_hours": "24"
+    },
+    {
+      "subject_code": "24MAT311",
+      "attendance_percentage": "94%",
+      "present_hours": "33",
+      "total_hours": "35"
+    },
+    {
+      "subject_code": "24SEK105",
+      "attendance_percentage": "94%",
+      "present_hours": "15",
+      "total_hours": "16"
+    },
+    {
+      "subject_code": "24CSL306",
+      "attendance_percentage": "100%",
+      "present_hours": "30",
+      "total_hours": "30"
+    },
+    {
+      "subject_code": "24CST303",
+      "attendance_percentage": "96%",
+      "present_hours": "45",
+      "total_hours": "47"
+    },
+    {
+      "subject_code": "24CSR304",
+      "attendance_percentage": "100%",
+      "present_hours": "34",
+      "total_hours": "34"
+    },
+    {
+      "subject_code": "24PWT208",
+      "attendance_percentage": "96%",
+      "present_hours": "27",
+      "total_hours": "28"
+    },
+    {
+      "subject_code": "SGA24",
+      "attendance_percentage": "71%",
+      "present_hours": "5",
+      "total_hours": "7"
+    },
+    {
+      "subject_code": "24CST302",
+      "attendance_percentage": "93%",
+      "present_hours": "38",
+      "total_hours": "41"
+    }
+  ],
+  "query": "Where can I improve my attendance? Which subjects are at risk?"
+}
