@@ -157,19 +157,16 @@ server.address=0.0.0.0
 src/
 ├── main/
 │   ├── java/com/API/AI/
-│   │   ├── config/
-│   │   │   └── GeminiConfig.java          # Gemini API configuration
-│   │   ├── controller/
-│   │   │   └── AiController.java          # REST API endpoints
-│   │   ├── dto/
-│   │   │   ├── AiQueryRequest.java        # Request DTO
-│   │   │   ├── AiQueryResponse.java       # Response DTO
-│   │   │   └── SubjectData.java           # Subject data model
-│   │   ├── service/
-│   │   │   └── GeminiService.java         # Gemini API integration
-│   │   └── AiApplication.java             # Main application class
+│   │   ├── config/          # Configuration classes
+│   │   ├── controller/      # REST controllers
+│   │   ├── dto/             # Data transfer objects
+│   │   ├── service/         # Business logic
+│   │   └── AiApplication.java
 │   └── resources/
-│       └── application.properties          # Configuration
+│       └── application.properties
+├── Dockerfile               # Docker configuration
+├── render.yaml              # Render deployment config
+└── examples/                # Example JSON files
 ```
 
 ## Error Handling
@@ -177,6 +174,17 @@ src/
 The API includes comprehensive error handling:
 - **400 Bad Request:** When data or query fields are missing/empty
 - **500 Internal Server Error:** When all Gemini models fail to respond
+
+## Docker & Deployment
+
+### Build Docker Image
+```bash
+docker build -t ai-api .
+docker run -p 8080:8080 -e GEMINI_API_KEY=your-key ai-api
+```
+
+### Deploy to Render
+See [RENDER_DEPLOY.md](RENDER_DEPLOY.md) for detailed deployment instructions.
 
 ## Security
 
